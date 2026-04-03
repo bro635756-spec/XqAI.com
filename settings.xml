@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<XqAIConfig>
+    <ProjectName>XqAI.com</ProjectName>
+    <Version>1.0.0-Final</Version>
+    <Developer>Burak</Developer>
+    <Repository>bro635756-spec/XqAl.com</Repository>
+    <Services>
+        <Service name="Firebase" status="active" />
+        <Service name="GitHubAPI" status="active" />
+    </Services>
+    <UIStyle>
+        <Theme>Cyberpunk-Glass</Theme>
+        <Color>Neon-Purple</Color>
+    </UIStyle>
+</XqAIConfig>
