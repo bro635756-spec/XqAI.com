@@ -1,0 +1,2 @@
+# XqAI.com
+LICENSE
