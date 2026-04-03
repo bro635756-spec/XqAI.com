@@ -1,2 +1,2 @@
-# XqAI.com
-LICENSE
+# XqAI.com #c++ #c#
+LICENSE copyright XqAI.com
