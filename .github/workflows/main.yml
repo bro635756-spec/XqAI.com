@@ -1,0 +1,22 @@
+name: XqAI Build & Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+
+    - name: Build C# Core
+      run: dotnet build index.cs
+      
+    - name: Compile C++ Packets
+      run: g++ xq_packets.cpp -o xq_packets.exe
